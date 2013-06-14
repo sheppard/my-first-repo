@@ -1,6 +1,6 @@
 {
     'type': 'Point',
-    'geometry': [-95, 45],
+    'coordinates': [-95, 45],
     'properties': {
         'test': 'Test'
     }

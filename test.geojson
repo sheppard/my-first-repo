@@ -1,7 +1,7 @@
 {
-    'type': 'Point',
-    'coordinates': [-95, 45],
-    'properties': {
-        'test': 'Test'
+    "type": "Point",
+    "coordinates": [-95, 45],
+    "properties": {
+        "test": "Test"
     }
 }

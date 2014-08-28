@@ -1,0 +1,15 @@
+<html>
+   <form action="http://192.168.2.121:8080/" method="post" enctype="multipart/form-data">
+     <input name="file" type="file"><br>
+     <input name="date" type="date"><br>
+     <button type="submit">WOOT</button>
+   </form>
+   <p id="ua"></p>
+   <progress id='prg' value="0" max="50">
+   <script>
+      document.getElementById('ua').innerHTML = navigator.userAgent;
+      setInterval(function() {
+          document.getElementById('prg').value += 0.01;
+      }, 10);
+   </script>
+</html>
